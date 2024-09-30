@@ -13,7 +13,7 @@ import { h1, text, body, mainWrapper, textWrapper, image } from "./styles";
 import { Feedback } from "./components/feedback";
 import Footer from "./components/footer";
 import Banner from "./components/banner";
-import { config } from "../config";
+import { config } from "./config";
 
 export const Reproved = () => (
   <Html>

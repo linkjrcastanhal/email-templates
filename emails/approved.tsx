@@ -9,11 +9,11 @@ import {
   Text,
 } from "@react-email/components";
 import * as React from "react";
-import { h1, text, body, mainWrapper, textWrapper, image, image } from "./styles";
+import { h1, text, body, mainWrapper, textWrapper, image } from "./styles";
 import { Feedback } from "./components/feedback";
 import Footer from "./components/footer";
 import Banner from "./components/banner";
-import { config } from "../config";
+import { config } from "./config";
 
 export const Approved = () => (
   <Html>

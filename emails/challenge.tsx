@@ -1,9 +1,9 @@
 import { Body, Container, Head, Heading, Html, Img, Text } from "@react-email/components"
-import { body, h1, image, mainWrapper, text, text, text, textWrapper } from "./styles"
+import { body, h1, image, mainWrapper, text, textWrapper } from "./styles"
 import * as React from "react";
 import Banner from "./components/banner";
 import Footer from "./components/footer";
-import { config } from "../config";
+import { config } from "./config";
 import Feedback from "./components/feedback";
 
 export const Challenge = () => {
@@ -31,32 +31,13 @@ export const Challenge = () => {
                             alt="Ilustração de estudantes desenvolvedo um aplicativo"
                         />
 
-                        <Text style={h1}>
+                        <Text style={{...h1, }}>
                             Detalhes do Desafio
                         </Text>
 
-                        <ul style={{ display: "flex", flexDirection: "column", gap: "16px", marginBottom: "48px" }}>
-                            <li style={text}>
-                                <span style={{ fontWeight: "bold" }}>Descrição:</span> desenvolva uma aplicação para cadastro de livros em uma biblioteca.
-                            </li>
-                            <li style={text}>
-                                <span style={{ fontWeight: "bold" }}>Requisitos:</span>
-                                <ul style={{ display: "flex", flexDirection: "column", gap: "8px", margin: "8px 0px" }}>
-                                    <li style={text}>
-                                        O código deve ser feito em JavaScript, HTML e CSS
-                                    </li>
-                                    <li style={text}>
-                                        Deve estar integrado a um banco de dados MySQL
-                                    </li>
-                                    <li style={text}>
-                                        O código deve estar bem estruturado.
-                                    </li>
-                                </ul>
-                            </li>
-                            <li style={text}>
-                                <span style={{ fontWeight: "bold" }}>Prazos:</span> Por favor, envie o desafio até o <span style={{ fontWeight: "bold" }}>dia [data] às [hora]</span>.
-                            </li>
-                        </ul>
+                        <Text style={{...text, marginBottom: "24px"}}>
+                            Todos os requisitos e instruções sobre a entrega do desafio técnico estão presentes no arquivo em anexo.
+                        </Text>
 
                         <Feedback />
                     </Container>

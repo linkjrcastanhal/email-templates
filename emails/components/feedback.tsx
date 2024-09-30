@@ -1,7 +1,7 @@
 import { Link, Text } from "@react-email/components"
 import React from "react"
 import { h1, text, link } from "../styles"
-import { config } from "../../config"
+import { config } from "../config"
 
 export const Feedback = () => {
     return (
