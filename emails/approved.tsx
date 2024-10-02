@@ -25,7 +25,7 @@ export const Approved = () => (
         <Container style={textWrapper}>
           <Heading style={h1}>Olá, [Nome]</Heading>
           <Text style={text}>
-            Sua candidatura foi recebida e avaliada cuidadosamente por nossa equipe, e estamos feliz em anunciar que você foi selecionado(a) para a próxima fase do nosso processo seletivo!
+            Sua candidatura foi recebida e avaliada cuidadosamente por nossa equipe, e estamos felizes em anunciar que você foi selecionado(a) para a fase de entrevistas!
           </Text>
           <Text style={text}>
             Ficamos impressionados com suas qualificações e acreditamos que seu perfil está alinhado com o que buscamos!
@@ -41,7 +41,7 @@ export const Approved = () => (
           />
 
           <Text style={text}>
-            Em breve, entraremos em contato sobre as próximas etapas do processo seletivo.
+            Em breve, entraremos em contato com informações sobre a sala de reuniões (online) e datas.
           </Text>
 
           <Feedback />
