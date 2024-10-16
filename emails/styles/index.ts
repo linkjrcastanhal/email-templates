@@ -27,6 +27,17 @@ export const link = {
     color: "#CD5C08"
 }
 
+export const button = {
+    fontFamily: "-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif",
+    fontWeight: "600",
+    width: "100%",
+    paddingTop: 12,
+    paddingBottom: 12,
+    borderRadius: 8,
+    borderWidth: 1,
+    borderStyle: "solid",
+}
+
 export const body = {
     margin: "24px auto",
     width: "900px"
